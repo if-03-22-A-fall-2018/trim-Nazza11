@@ -1,12 +1,23 @@
 /*----------------------------------------------------------
- *				HTBLA-Leonding / Klasse: <your class>
+ *				HTBLA-Leonding / Klasse: 2AHIF
  * ---------------------------------------------------------
- * Exercise Number: 0
+ * Exercise Number: 9
  * Title:			trim.h
- * Author:			P. Bauer
- * Due Date:		March 14, 2015
+ * Author:			Vinzent Kronreif
+ * Due Date:		
  * ----------------------------------------------------------
  * Description:
  * Interface for trim
  * ----------------------------------------------------------
  */
+
+ #ifndef ___TRIM_H
+  #define ___TRIM_H
+
+  #define STRLEN 30
+
+  void trim(char* str,char* trimmed);
+  void remove_leading_blanks(char* source,char testChar[]);
+  void remove_trailing_blanks(char testChar[]);
+
+ #endif
